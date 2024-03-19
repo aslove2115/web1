@@ -1,0 +1,153 @@
+<!-- 宣告HTML5文件 -->
+<!doctype html>
+<!-- 根元素 -->
+<html lang="zh-Hant-TW">
+  <!-- 檔頭 -->
+  <head>
+    <!-- 中繼標籤 -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="魚排旅遊網">
+    <meta name="description" content="旅遊時有很多需要的地方,如住宿,交通,安全...等等">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="keywords" content="魚排旅遊網,住宿,交通,安全">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <!-- 網站標題 -->
+    <title>魚排旅遊網-旅遊安全</title>
+    <!-- BootstrapCSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- GA追蹤分析 -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9P54K3NRZJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-9P54K3NRZJ');
+    </script>
+  </head>
+  <!-- 網頁本文 -->
+  <body>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">魚排旅遊網</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">關於品牌</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="viewpoint.html">景點介紹</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hotel.html">住宿資訊</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="safe.html">旅遊安全</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://toolkit.url.com.tw/bbs/index.php?email=bbs@trial-154993.url.tw" target="_blank">留言發問</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="輸入關鍵字" aria-label="輸入關鍵字">
+              <button class="btn btn-outline-success" type="submit">Enter</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/index/Tokyo.webp" class="d-block w-100" alt="日本東京" title="日本東京" aria-label="日本東京">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/Mount FUJI.webp" class="d-block w-100" alt="日本富士山" title="日本富士山" aria-label="日本富士山">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/japan woman and.webp" class="d-block w-100" alt="伏見稻荷大社的女人" title="伏見稻荷大社的女人" aria-label="伏見稻荷大社的女人">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 order-md-0 mt-5">
+            <img src="images/safe/woman.webp" class="img-fluid mx-auto" alt="保持資訊更新" title="保持資訊更新" aria-label="保持資訊更新">
+        </div>
+            <div class="col-md-7 order-md-1 mt-5">
+                <h2><i class="material-icons" style="font-size:1.5rem;color:rgb(19, 54, 123);vertical-align: bottom;"></i>保持資訊更新</h2>
+                <p class="text-danger">日本是一個地震和颱風頻繁的地區，因此在旅行前務必掌握最新的天氣和地震資訊。</p>
+                <p class="textIndent">您可以通過各種方式獲取這些信息，包括網上天氣預報、地震監測系統以及當地媒體報導。另外，建議您在出發前查看外交部領事事務局全球資訊網的旅遊警示，了解目的地的安全狀況和相關建議。<br><br>在日本旅行期間，隨時注意政府發佈的旅遊警示和建議，並遵從當地當局的指示。如果遇到天氣突變或其他緊急情況，請及時聯繫當地的緊急服務和使領館，並採取必要的應對措施。</li>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5 order-md-0 mt-5">
+            <img src="images/safe/japan.webp" class="img-fluid mx-auto" alt="尊重當地習俗和法律" title="尊重當地習俗和法律" aria-label="尊重當地習俗和法律">
+        </div>
+            <div class="col-md-7 order-md-1 mt-5">
+                <h2><i class="material-icons" style="font-size:1.5rem;color:rgb(19, 54, 123);vertical-align:bottom;"></i>尊重當地習俗和法律</h2>
+                <p class="text-danger">日本有著悠久歷史和獨特文化，我們作為訪客應該尊重和遵守當地的習俗和法律。</p>
+                <ul class="list-symbol">
+                  <li>日本旅行期間，請遵守當地的禮儀規範，如在進入寺廟或神社時脫鞋，並保持安靜和整潔。</li>
+                  <li>尊重日本人的隱私和個人空間，避免無故干擾或打擾他人。</li>
+                  <li>瞭解日本的法律和規定，特別是關於吸煙、酒精飲料和毒品使用的法律。切勿從事任何違法活動，以免觸犯當地法律。</li>
+                  <li>遵守當地的文化習俗，如在用餐時使用筷子的正確方式，以示尊重和禮貌。</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5 order-md-0 mt-5">
+            <img src="images/safe/toto.webp" class="img-fluid mx-auto" alt="防範小型犯罪" title="防範小型犯罪" aria-label="防範小型犯罪">
+          </div>
+          <div class="col-md-7 order-md-1 mt-5">
+              <h2><i class="material-icons" style="font-size:1.5rem;color:rgb(19, 54, 123);vertical-align:bottom;"></i>防範小型犯罪</h2>
+              <p class="text-danger">儘管日本被譽為一個安全的旅行目的地，但仍應該保持警惕，防止小型犯罪的發生。
+              </p>
+              <h5>在旅行期間，請特別注意以下幾點：</h5>
+              <ol class="list-no">
+                <li>在人群聚集的地方，保護好您的財物，尤其是手機、錢包和護照。</li>
+                <li>避免將貴重物品留在背包外側，以免引起小偷的注意。</li>
+                <li>避免在公共場所展示昂貴的物品，如珠寶、名牌手袋等。</li>
+                <li>盡量保持低調，以免成為犯罪目標。</li>
+                <li>注意身邊的陌生人，不要輕易相信他們提供的幫助或建議。</li>
+                <li>如果有人試圖接近您或顯得可疑，請盡快離開該地區並向當地警察報告。</li>
+                <li>選擇安全可靠的交通工具和住宿地點，並避免夜間獨自行走，尤其是在人煙稀少的地區。</li>
+                這些是保持您在日本旅行期間安全的基本步驟。請記住這些提示，並隨時保持警惕，以確保您的旅程愉快和安全。
+          </div>
+        </div>
+      <hr>
+      </div>
+      <footer class="container">
+        <p class="float-end"><a href="#top">回到頁面頂端</a></p>
+        <p>魚排旅遊網 &copy; 2024</p>
+      </footer>
+    </main>
+    <!-- BootstrapJS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
